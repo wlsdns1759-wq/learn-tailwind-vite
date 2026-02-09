@@ -1,0 +1,15 @@
+/* 테마 변수 디렉티브 (@theme) */
+@theme {
+  /* 색상 테마 */
+  --color-likelion: #ffc;
+  --color-bootcamp: #ccc;
+
+  /* 중단점 테마 */
+  --breakpoint-xs: 30rem;
+}
+
+/* 전역 변수 (사용자 정의 속성) */
+:root {
+  --primary: red;
+  --secondary: green;
+}
